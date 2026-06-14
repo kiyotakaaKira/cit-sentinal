@@ -483,3 +483,146 @@
     font-family: 'JetBrains Mono', monospace;
   }
 }
+
+
+/* ===============================
+   RESPONSIVE DESIGN SYSTEM
+   =============================== */
+
+/* Large screens (small laptops / tablets landscape) */
+@media (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero-mesh {
+    background-size: 120% 120%;
+  }
+
+  .card-warm {
+    border-radius: 14px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  /* Stack layouts */
+  .grid-cols-2,
+  .grid-cols-3,
+  .grid-cols-4 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Improve spacing */
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  /* Navbar adjustments (if used) */
+  .nav-active {
+    padding-left: 0.75rem;
+  }
+
+  /* Buttons full width on mobile if needed */
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
+
+  .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* Typography scaling */
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  /* Reduce glow intensity for performance */
+  .glow-gold,
+  .glow-maroon {
+    box-shadow: none;
+  }
+
+  /* Better touch targets */
+  button,
+  a,
+  .btn-primary,
+  .btn-secondary,
+  .btn-ghost {
+    min-height: 44px;
+  }
+
+  /* Chat bubbles spacing fix */
+  .bubble-user,
+  .bubble-ai {
+    padding: 12px;
+    border-radius: 14px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 360px) {
+  body {
+    font-size: 12.5px;
+  }
+
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  /* Reduce animation intensity for low-end devices */
+  .animate-float,
+  .animate-spin-slow,
+  .animate-glow-breathe {
+    animation: none !important;
+  }
+
+  /* Reduce spacing */
+  .card-warm {
+    border-radius: 12px;
+  }
+}
+
