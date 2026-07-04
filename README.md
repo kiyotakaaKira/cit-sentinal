@@ -45,7 +45,7 @@ Built for the hackathon track aligned with **UN Sustainable Development Goal 4: 
 
 ## 🔴 Problem Statement
 
-Indian engineering colleges lose 8–12% of students to dropout every academic year. The core failure is not a lack of care — it is a lack of **visibility** and **timing**.
+Indian engineering colleges usually lose 8–12% of students to dropout every academic year. The core failure is not a lack of care — it is a lack of **visibility** and **timing**.
 
 | Problem | Impact |
 |---|---|
