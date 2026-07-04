@@ -68,7 +68,7 @@ CIT-Sentinel solves this with a **5-layer intervention architecture**:
 DETECT → CLASSIFY → ALERT → INTERVENE → TRACK
 ```
 
-1. **DETECT** — Sentinel Score calculated from 5 data dimensions every time data changes
+1. **DETECT** — Sentinel Score calculated from 5 data dimensions every time Data changes  
 2. **CLASSIFY** — Behavioural Persona Engine labels why a student is at risk
 3. **ALERT** — Role-based notifications + real parent email alerts via Nodemailer
 4. **INTERVENE** — AI generates 4-week intervention plans; peer bridge matching activates
