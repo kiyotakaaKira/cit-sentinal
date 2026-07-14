@@ -437,6 +437,10 @@ node seedStudents.js
 Expected output:
 ```
 ✅ SEEDING COMPLETE
+...
+```
+
+> **Verification:** Open your MongoDB Atlas cluster after seeding and confirm that the `students`, `users`, `interventions`, and other project collections have been created successfully before starting the application.
 ==================
 Total Students: 560
 
